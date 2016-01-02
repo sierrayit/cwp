@@ -1,0 +1,81 @@
+body {
+  background-size: cover;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  color: #666666;
+}
+
+/* Typography */
+h1#title {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 500;
+  font-size: 3.2em;
+  color: #00001a;
+  margin: auto;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  top: 0px;
+  z-index: 1; 
+}
+
+/* LAYOUT */
+.container {
+  margin: 0;
+}
+
+.top {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.contact {
+  background-color: white;
+  width: 550px;
+  margin: auto;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 50px rgba(0,0,0,0.4);
+  text-align: center;
+  z-index: 1; 
+}
+
+.login-box label {
+  font-weight: 700;
+  font-size: .8em;
+  color: #888;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 2em;
+  padding-right: 10px; 
+  padding-left: 10px; 
+}
+
+.login-box button {
+  margin-top: 0px;
+  border: 0;
+  border-radius: 2px;
+  color: white;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.7em;
+  letter-spacing: 1px;
+  background-color: #665851;
+  cursor:pointer;
+  outline: none;
+}
+
+.img {
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
