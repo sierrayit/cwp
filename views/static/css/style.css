@@ -68,21 +68,20 @@ ul {
   padding: 0;
 }
 
-
-/*ul > li {
-  float: left;
-}
-
-ul > li > ul {
-  width: 100%;
-  display:block;
-}*/ 
-
 ul li ul li {
   padding-left: 15px;
 }
 
-.footer {
+ul li ul li:hover {
+  background-color: #dbdbdb;
+  height: 20px;
+}
+
+.content li {
+  padding-left: 15px;
+}
+
+footer {
   position: fixed;
   height: 40px;
   background-color:#dbdbdb;
